@@ -196,20 +196,6 @@ sudo systemctl start cpu-profile.service
 ./Wcpu.sh eco             # 25W is sufficient
 ```
 
-## Benchmarks
-
-Performance impact of CPU profiles (tested on Ryzen 9 5900HS):
-
-| Profile | Cinebench R23 | Temps (°C) | Consommation |
-|---------|---------------|------------|--------------|
-| Ultra | ~4,500 pts | 65°C | ~15W |
-| Eco | ~7,800 pts | 70°C | ~30W |
-| Mid | ~10,500 pts | 75°C | ~48W |
-| Standard | ~12,000 pts | 82°C | ~58W |
-| Performance | ~13,200 pts | 88°C | ~65W |
-
-*Your results may vary depending on CPU model and cooling solution.*
-
 ## Troubleshooting
 
 ### GPU switching not working
